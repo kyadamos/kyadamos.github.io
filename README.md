@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+# hi im kyle adamos
 
-You can use the [editor on GitHub](https://github.com/kyadamos/kyadamos.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## in my five years of college...
+i have yet to find a consistent medium for documenting my work. college ruled paper, onenote, google docs, printer paper (still my all time favorite), overleaf, notepad, notepad++, i even tried spreadsheets. i found it difficult to even maintain information bases because there were so many different file formats that i was keeping track of; i dreaded redundant documentation more than anything.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kyadamos/kyadamos.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+this github page is my attempt at summarizing what i found most interesting and practical.
