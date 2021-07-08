@@ -6,4 +6,4 @@ author:
 description: a collection of my unfinished projects
 
 # Build settings
-remote_theme: jekyll-theme-tactile
+theme: jekyll-theme-tactile
