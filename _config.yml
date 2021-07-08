@@ -1,9 +1,9 @@
 # Site settings
 title: about
-author: kyle
+author:
 name: kyle adamos
 email: kyle@adamos.systems
-description: a collection of my unfinished projects
+description: "a collection of my unfinished projects" 
 
 # Build settings
 theme: jekyll/minima
