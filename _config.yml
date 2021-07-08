@@ -1,1 +1,9 @@
-theme: jekyll-theme-tactile
+# Site settings
+title: about
+author:
+  name: kyle
+  email: kyle@adamos.systems
+description: a collection of my unfinished projects
+
+# Build settings
+remote_theme: jekyll-theme-tactile
