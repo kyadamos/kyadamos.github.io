@@ -1,8 +1,8 @@
 # Site settings
 title: about
-author:
-  name: kyle
-  email: kyle@adamos.systems
+author: kyle
+name: kyle adamos
+email: kyle@adamos.systems
 description: a collection of my unfinished projects
 
 # Build settings
