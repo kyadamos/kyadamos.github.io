@@ -6,4 +6,4 @@ email: kyle@adamos.systems
 description: "a collection of my unfinished projects" 
 
 # Build settings
-theme: jekyll/minima
+remote_theme: jekyll/minima
