@@ -1,0 +1,12 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+
+in my five years of college...
+
+i have yet to find a consistent medium for documenting my work. college ruled paper, onenote, google docs, printer paper (still my all time favorite), overleaf, notepad, notepad++, i even tried spreadsheets. i found it difficult to even maintain information bases because there were so many different file formats that i was keeping track of; i dreaded redundant documentation more than anything.
+
+this is my attempt at summarizing what i find interesting and practical.
