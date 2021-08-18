@@ -1,0 +1,37 @@
+name: Build and deploy Jekyll site to GitHub Pages
+
+
+on:
+  push:
+    branches:
+      - main
+
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-18.04 # ubuntu-latest = 20.04: incompatible
+    steps:
+      # runs checkout action
+      - name: setup
+        uses: actions/checkout@v2
+        
+      # uses ruby/setup-ruby to select bundler version
+      - name: setup ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7.4
+          bundler-cache: true
+
+      # use jekyll-action-ts to run jekyll build
+      - name: install dependencies and build site
+        uses: limjh16/jekyll-action-ts@v2
+        with:
+          enable_cache: true # runs `bundle install` & stores gems in cache
+
+      # use actions-gh-pages to deploy
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: main
