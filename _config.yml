@@ -19,23 +19,26 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site settings
-title:  "kyle adamos"
+title:  "Kyle Adamos"
 author:
-  name: kyle adamos
+  name: Kyle Adamos
   email:  kyle@adamos.systems
 description:  "a collection of my unfinished projects" 
 url: https://kyle.adamos.rip/
-github_username: kyadamos
-minima:
-  date_format:  "%b %-d, %Y"
+github_username: "kyadamos"
   
 # Build settings
 markdown: kramdown
 header_pages:
   - about.md
-theme:  minima
 plugins:
   - jekyll-feed
+
+defaults:
+  - scope:
+    path: ""
+    values:
+      layout: "post"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
