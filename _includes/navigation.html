@@ -1,5 +1,8 @@
 <nav>
   {% for item in site.data.navigation %}
-	<a href="{{ item.link }}" {% if page.url == item link%}class="current"{% endif %}>{{ item.name }}</a>
+    <div class="ky-bar-item	ky-hover-light">
+      <a href="{{ item.link }}" {% if item.highlight %}style="border: 1px solid red;"{% endif %} {% if item.link == page.url %}class="active"{% endif %}>{{ item.name }}
+	  </a>
+	</div>
   {% endfor %}
 </nav>

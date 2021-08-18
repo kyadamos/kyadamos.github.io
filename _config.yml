@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site settings
-title:  "Kyle Adamos"
+title:  kyle.adamos.rip
 author:
   name: Kyle Adamos
   email:  kyle@adamos.systems
@@ -33,12 +33,6 @@ header_pages:
   - about.md
 plugins:
   - jekyll-feed
-
-defaults:
-  - scope:
-    path: ""
-    values:
-      layout: "post"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

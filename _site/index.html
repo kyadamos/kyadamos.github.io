@@ -1,14 +1,9 @@
----
-description:  "a collection of my unfinished projects" 
-url: https://kyle.adamos.rip/
-github_username: "kyadamos"
----
 <!DOCTYPE html>
 <html>
-<title>{{ site.title }}</title>
+<title>Kyle Adamos</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="{{ '/assets/css/base.css' | relative_url }}"/>
+<link rel="stylesheet" href="/assets/css/base.css"/>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -19,7 +14,29 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 <!-- Page Container -->
 <div class="ky-content ky-margin-top" style="max-width:1400px;">
   <div class="ky-bar ky-dark">
-	{% include navigation.html %}
+	<nav>
+  
+    <div class="ky-bar-item	ky-hover-light">
+      <a href="/"  class="active">Home
+	  </a>
+	</div>
+  
+    <div class="ky-bar-item	ky-hover-light">
+      <a href="/about/"  >About
+	  </a>
+	</div>
+  
+    <div class="ky-bar-item	ky-hover-light">
+      <a href="/services"  >Services
+	  </a>
+	</div>
+  
+    <div class="ky-bar-item	ky-hover-light">
+      <a href="/contact/"  >Contact
+	  </a>
+	</div>
+  
+</nav>
   </div>
   <!-- The Grid -->
   <div class="ky-row-padding">
@@ -31,7 +48,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="ky-display-container ky-round-xlarge">
           <img src="/images/profile_picture.JPG" style="width:100%" alt="Avatar">
           <div class="ky-display-bottomleft ky-container ky-text-black">
-            <h2><span class="ky-tag ky-accent ky-round"><strong>{{ site.author.name }}</strong></span></h2>
+            <h2><span class="ky-tag ky-accent ky-round"><strong>Kyle Adamos</strong></span></h2>
           </div>
         </div>
         <div class="ky-container">
