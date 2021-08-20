@@ -9,13 +9,14 @@
 	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  <body>
+  <body class="ky-dark3">
 	<div class="ky-bar ky-dark2">
 		{% include navigation.html %}
 	</div>
-	<header style="text-align:center">
-			<h1>Kyle Adamos: <small>{{ page.title}}</small></h1>
-			<hr style="margin:auto;width:80%;height:4px;color:#000;background-color: #ddd;border: none;">
+	<header style="margin:0 24px">
+			<h2 class="ky-tag ky-dark ky-round" style="margin-bottom:0;"><a href="{{ site.title }}">{{ site.title }}:</a></h2>
+			<h3 class="ky-tag ky-accent ky-round" style="margin-top: 0"><a style="color:aliceblue" href="{{ page.link }}">{{ page.title }}</a></h3>
+			<hr style="border-style: none; width: 90%; background-color:#101010; height: 3px;">
 	</header>
 	
 	<div class="content ky-margin-top">
