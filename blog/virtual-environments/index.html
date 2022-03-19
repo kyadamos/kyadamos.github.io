@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<title>kyle.adamos.rip</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="/assets/css/base.css">
+	<link rel="stylesheet" href="/assets/css/main.css"/>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="ky-dark3">
+	<div class="ky-bar ky-dark2">
+		<nav>
+  
+    <div class="ky-bar-item	ky-hover-light2">
+      <a href="/" >home
+	    </a>
+    </div>
+  
+    <div class="ky-bar-item	ky-hover-light2">
+      <a href="/about/" >about
+	    </a>
+    </div>
+  
+    <div class="ky-bar-item	ky-hover-light2">
+      <a href="/blog/" >blog
+	    </a>
+    </div>
+  
+    <div class="ky-bar-item	ky-hover-light2">
+      <a href="/services" >services
+	    </a>
+    </div>
+  
+    <div class="ky-bar-item	ky-hover-light2">
+      <a href="/contact/" >contact
+	    </a>
+    </div>
+  
+</nav>
+	</div>
+	<header style="margin:0 24px">
+			<h2 class="ky-tag ky-dark ky-round" style="margin-bottom:0;"><a href="kyle.adamos.rip">kyle.adamos.rip:</a></h2>
+			<h3 class="ky-tag ky-accent ky-round" style="margin-top: 0"><a style="color:aliceblue" href="">virtual environments (venv)</a></h3>
+			<hr style="border-style: none; width: 90%; background-color:#101010; height: 3px;">
+	</header>
+	
+	<div class="content ky-margin-top">
+		<p>Sometimes (rarely, but sometimes), when I start a new Python project, I run into compatibility issues in the packages that I’ve installed. Whether it be because a function has been renamed, its behavior is different, or the package was written in a different version of Python: compatibility issues are a pain. Virtual environments help resolve this issue by creating a space for your work and saving the particular versions of each package that you install for your project. This way, if you have multiple projects that each use a different version of a certain package, or if someone else would like to begin working on your project at a later date, you or they may download and install the packages as they are versioned in your virtual environment – bypassing any compatibility issues and therefore being able to use your code immediately (assuming that your code in the virtual environment works, haha).</p>
+
+<p>Although there are other alternatives, I like to use the <code class="language-plaintext highlighter-rouge">venv</code> module. The following instructions are for VS Code on a Windows machine, but you can find machine specific instructions on Python’s Packaging User <a href="https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments">Guide</a>.</p>
+
+<p>Before I create anything, I make sure that I have Python, pip, and venv installed. You can find the links to download and install them here: <a href="https://www.python.org/downloads/">Python</a>, <a href="https://pip.pypa.io/en/stable/installation/">pip</a>, <a href="https://docs.python.org/3/library/venv.html">venv</a>. I usually double check that I have pip and venv installed by entering <code class="language-plaintext highlighter-rouge">pip list</code>; this command shows me all the packages that I have installed on my machine.</p>
+
+<p>Once I see that I have pip and venv, I create a new workspace in VS Code. You can do this by opening up a fresh window, then going to File &gt; Save Workspace as …</p>
+
+<p>After creating a new workspace, navigate to the terminal and enter <code class="language-plaintext highlighter-rouge">Python -m venv &lt;venv-name&gt;</code> where <code class="language-plaintext highlighter-rouge">&lt;venv-name&gt;</code> is the name of the virtual environment. I usually use the same name as the project with a <code class="language-plaintext highlighter-rouge">_venv</code> at the end, e.g. <code class="language-plaintext highlighter-rouge">WorkAutomation_venv</code>. Now, there should be three new folders in the workspace: “Lib”, “Include”, and “Scripts”, and the python.pythonPath setting should be stated in the settings (easiest to see in the JSON view of the settings).</p>
+
+<p>Edit the settings of the Workspace (hit <code class="language-plaintext highlighter-rouge">ctrl+,</code> to open up the settings and switch from “User” to “Workspace” if it’s not currently editing the Workspace settings) – specifically, change the python path to the path that your .\Scripts\Python.exe is located within your venv.</p>
+
+<p>Should look something like:
+{
+	“python.pythonPath”:
+		“C:\path\to\venv\Scripts\python.exe”
+}</p>
+
+<p>Note: the double backslashes are necessary on Windows machines because a single backslash is the escape character (escape from quote).</p>
+
+<p>Now the venv setup is complete. Once you relaunch your terminal, your workspace should navigate to the new pythonPath from the workspace settings, launching the virtual environment’s Python interpreter and indicating this with ([name of virtual environment]) preceding your terminal input line.</p>
+
+<p>ex:
+<code class="language-plaintext highlighter-rouge">(practice_env) PS C:\path\to\venv&gt;</code></p>
+
+
+	</div>
+	<footer>
+		<footer class="ky-container ky-accent ky-center ky-margin-top">
+	<p>Find me on social media.</p>
+	<a href="https://www.instagram.com/kyleadamos/" target="_blank"><i class="fa fa-instagram ky-hover-opacity"></i></a>
+	<a href="https://www.linkedin.com/in/kyleadamos/" target="_blank"><i class="fa fa-linkedin ky-hover-opacity"></i></a>
+	<p>Check out my <a href="https://github.com/kyadamos" target="_blank">GitHub</a></p>
+  </footer>  
+	</footer>
+  </body>
+</html>
