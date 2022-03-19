@@ -2,3 +2,5 @@
   name: ardupilot
 - link: /blog/shopping-bot/
   name: shopping-bot
+- link: /blog/virtual-environments/
+  name: virtual-environments
