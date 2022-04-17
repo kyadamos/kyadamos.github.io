@@ -12,4 +12,4 @@ however, with ardupilot, a mission planning software, we are able to also utiliz
 
 in this section, we connect a pixhawk 1 flight controller to a raspberry pi zero w acting as a companion computer.
 
-i used this tutorial https://www.youtube.com/watch?v=cZVNndOaYCE&t=209s
+i used this [tutorial](https://www.youtube.com/watch?v=cZVNndOaYCE&t=209s)

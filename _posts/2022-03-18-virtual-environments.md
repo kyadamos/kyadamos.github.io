@@ -21,10 +21,13 @@ After creating a new workspace, navigate to the terminal and enter `Python -m ve
 Edit the settings of the Workspace (hit `ctrl+,` to open up the settings and switch from "User" to "Workspace" if it's not currently editing the Workspace settings) -- specifically, change the python path to the path that your .\Scripts\Python.exe is located within your venv.
 
 Should look something like:
+
+```json
 {
-	"python.pythonPath":
-		"C:\\path\\to\\venv\\Scripts\\python.exe"
+ "python.pythonPath":
+  "C:\\path\\to\\venv\\Scripts\\python.exe"
 }
+```
 
 Note: the double backslashes are necessary on Windows machines because a single backslash is the escape character (escape from quote).
 

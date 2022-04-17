@@ -11,12 +11,10 @@ Sneakerheads, Funko Pop collectors, PC builders, and many others who buy high-de
 
 Start
 
-Today, we'll be using [selenium]
+Today, we'll be using [selenium](https://pypi.org/project/selenium/)
 
 Setup
 
 I'm using Python to program our bot because it's easy and there's a lot of documentation using Python.
 
-[selenium]: https://pypi.org/project/selenium/
-[web-drivers]: https://www.selenium.dev/documentation/en/webdriver/driver_requirements/
- 
+[webDriver](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)
