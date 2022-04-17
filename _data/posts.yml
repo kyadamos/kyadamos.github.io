@@ -1,6 +1,6 @@
-- link: /blog/ardupilot/
-  name: ardupilot
 - link: /blog/shopping-bot/
   name: shopping-bot
 - link: /blog/virtual-environments/
   name: virtual-environments
+- link: /blog/voltage-dividers/
+  name: voltage-dividers
