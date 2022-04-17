@@ -34,4 +34,4 @@ jobs:
           publish_dir: ./_site
           allow_empty_commit: true
           enable_jekyll: true
-          cname: kyle.adamos.rip
+          cname: kyleadamos.com
