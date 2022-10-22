@@ -1,8 +1,10 @@
 - link: /
-  name: Home
+  name: home
 - link: /about/
-  name: About
+  name: about
+- link: /blog/
+  name: blog
 - link: /services
-  name: Services
+  name: services
 - link: /contact/
-  name: Contact
+  name: contact

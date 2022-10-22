@@ -6,24 +6,23 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<link rel="stylesheet" href="{{ '/assets/css/base.css' | relative_url }}">
 	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"/>
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 	<div class="ky-bar ky-dark2">
 		{% include navigation.html %}
 	</div>
-	<header style="text-align:center;">
-			<h1><a href="/">Kyle<strong>Adamos</strong></a></h1>
-			<hr width="80%"
-				size="20">
+	<header style="text-align:center">
+			<h1>Kyle Adamos: <small>{{ page.title}}</small></h1>
+			<hr style="margin:auto;width:80%;height:4px;color:#000;background-color: #ddd;border: none;">
 	</header>
 	
-	<div class="content">
-		{{ content }}
+	<div class="content ky-margin-top">
+		{{ page.content }}
 	</div>
 	<footer>
-	  <div class="container">
-		  <p class="center-text"> <a href="https://kyle.adamos.rip"></a></p>
-	  </div>
+		{% include footer.html %}  
 	</footer>
   </body>
 </html>

@@ -1,15 +1,13 @@
 name: Build and deploy Jekyll site to GitHub Pages
-
-
 on:
   push:
     branches:
       - main
-
-
 jobs:
   github-pages:
-    runs-on: ubuntu-18.04 # ubuntu-latest = 20.04: incompatible
+    runs-on: ubuntu-latest # ubuntu-latest = 20.04: incompatible
+    # env:
+      # BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{}}
     steps:
       # runs checkout action
       - name: setup
@@ -36,4 +34,4 @@ jobs:
           publish_dir: ./_site
           allow_empty_commit: true
           enable_jekyll: true
-          cname: kyle.adamos.rip
+          cname: kyleadamos.com

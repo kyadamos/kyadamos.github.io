@@ -2,8 +2,8 @@
 layout:	post
 title:	"Ardupilot"
 date:   2021-07-08 02:17:05 -0700
-categories:	jekyll update
-permalink:	/ardupilot/
+categories:	Blog
+permalink:	/:categories/ardupilot/
 ---
 
 when it comes to flight controllers, pixhawk models are among the highest performing compared to others in the hobbyist market. the pixhawk 1 uses an ARM Cortex M4 CPU with a clock speed of 180 MHz -- this is sufficient for quick responses during flight.
@@ -12,4 +12,4 @@ however, with ardupilot, a mission planning software, we are able to also utiliz
 
 in this section, we connect a pixhawk 1 flight controller to a raspberry pi zero w acting as a companion computer.
 
-i used this tutorial https://www.youtube.com/watch?v=cZVNndOaYCE&t=209s
+i used this [tutorial](https://www.youtube.com/watch?v=cZVNndOaYCE&t=209s)
