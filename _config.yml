@@ -23,11 +23,17 @@ title: www.kyleadamos.com
 author:
   name: kyle adamos
   email:  kyleadamos@outlook.com
+<<<<<<< HEAD
 description:  "a collection of my unfinished projects"
 url: https://kyleadamos.com/
 github_username: kyadamos
 minima:
   date_format:  "%b %-d, %Y"
+=======
+description:  "a collection of my unfinished projects" 
+url: https://kyleadamos.com/
+github_username: "kyadamos"
+>>>>>>> b07bf79430c6184600f2faba91388881afee6679
   
 # Build settings
 markdown: kramdown
