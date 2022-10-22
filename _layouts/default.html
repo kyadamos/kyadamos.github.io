@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="UTF-8">
+	<title>{{ site.title }}</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="{{ '/assets/css/base.css' | relative_url }}">
+	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"/>
+  </head>
+  <body>
+	<div class="ky-bar ky-dark2">
+		{% include navigation.html %}
+	</div>
+	<header style="text-align:center;">
+			<h1><a href="/">Kyle<strong>Adamos</strong></a></h1>
+			<hr width="80%"
+				size="20">
+	</header>
+	
+	<div class="content">
+		{{ content }}
+	</div>
+	<footer>
+	  <div class="container">
+		  <p class="center-text"> <a href="https://kyle.adamos.rip"></a></p>
+	  </div>
+	</footer>
+  </body>
+</html>
